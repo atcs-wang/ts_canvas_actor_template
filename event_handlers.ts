@@ -14,7 +14,6 @@ window.addEventListener("load", function() {
 canvas.addEventListener("click", function(event: MouseEvent) {
     //Handle click events
     //Get position of click on canvas: event.offsetX, event.offsetY
-
 });
 
 document.addEventListener("keydown", function(event: KeyboardEvent){
@@ -39,3 +38,9 @@ document.addEventListener("keyup", function(event:KeyboardEvent){
 
 // Use setTimeout() for time-based events that will occur once
 // Use setInterval() for time-based events that will occur regularly
+
+
+//Define any global variables for tracking input states between events:
+// Some samples:
+// let lastMousePosition = {x: 0, y:0};
+// let keysStatus = {leftKeyDown: false, rightKeyDown: false};
